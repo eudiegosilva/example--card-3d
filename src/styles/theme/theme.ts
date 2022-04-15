@@ -1,20 +1,10 @@
 export default {
   colors: {
-    primary: '#000000',
+    primary: '#FFCB00',
+    secondary: '#1D1F21',
 
     white: '#FFFFFF',
-    black: '#000000',
-
-    vampireBlack: '#080808',
-    eerieBlack: '#1C1C1C',
-    darkCharcoal: '#333333',
-
-    raspberry: '#ED145B',
-    cardinal: '#CB1E40',
-    sasquatchSocks: '#FF4785',
-
-    philippineYellow: '#FFCB00',
-    aqua: '#00E7F9'
+    black: '#000000'
   },
   grid: {
     smarthphone: {
@@ -38,12 +28,13 @@ export default {
       small: '0.5rem',
       medium: '1rem',
       large: '2rem',
+      extraLarge: '3rem',
       rounded: '50%'
     }
   },
   font: {
     family:
-      "Montserrat, Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+      "'Pragati Narrow', Montserrat, Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     sizes: {
       extraSmall: '1.25rem',
       small: '1.625rem',

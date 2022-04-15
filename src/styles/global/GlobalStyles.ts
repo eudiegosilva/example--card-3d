@@ -43,6 +43,20 @@ const GlobalStyles: GlobalStyleComponent<
     src: local('Montserrat Bold'), local('Montserrat-Bold'), url('/fonts/Montserrat-Bold.ttf') format('truetype');
   }
   
+  @font-face {
+    font-family: 'Pragati Narrow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pragati Narrow'), local('Pragati-Narrow'), url('/fonts/PragatiNarrow-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Pragati Narrow';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Pragati Narrow'), local('Pragati-Narrow'), url('/fonts/PragatiNarrow-Bold.ttf') format('truetype');
+  }
+  
   html {
     font-size: 50%;
   }
