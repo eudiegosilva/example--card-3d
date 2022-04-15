@@ -4,6 +4,8 @@ import media from 'styled-media-query';
 const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: ${theme.grid.smarthphone.container};
