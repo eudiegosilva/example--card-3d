@@ -1,13 +1,14 @@
-# BOILERPLATE | React + TypeScript (Create React App)
+# EXAMPLE | 3D draggable card
 
-##### react, typescript, styled-componets, storybook, jest, react testing library and more...
+##### react, framer-motion, styled-componets
 
 ---
 [![made by @diegosilvatech](https://img.shields.io/badge/made%20by-@diegosilvatech-ED145B?style=for-the-badge)](https://linktr.ee/diegosilvatech)
 
 ## ABOUT THIS PROJECT
 
-This project is a template for ReactJS project. This template was built with Create React App and TypeScript. Made by [Diego Silva](https://www.linkedin.com/in/coderamos/)
+
+This project is just an example of a 3D card. The project was created using my boilerplate. Made by [Diego Silva](https://www.linkedin.com/in/diegosilvatech/)
 
 ---
 
@@ -18,11 +19,6 @@ At first, in the project directory, you need run:
 ```jsx
 // installing the dependencies
 yarn install
-```
-
-```jsx
-// creates .jest-test-results.json file to @storybook/addon-jest
-yarn test:generate-output
 ```
 
 #### OTHER SCRIPTS AVAILABLE
