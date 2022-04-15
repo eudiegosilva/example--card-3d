@@ -18,7 +18,7 @@ const CardDetails = ({
 
     <s.SpacedHorizontalContainer>
       <s.TextMedium>{buyActionText}</s.TextMedium>
-      <s.Button>BUY</s.Button>
+      <s.Button>COMPRAR</s.Button>
     </s.SpacedHorizontalContainer>
 
     <s.BrandLogoWrapper>

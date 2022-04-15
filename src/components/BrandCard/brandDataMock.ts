@@ -17,6 +17,6 @@ export const brandAdidasDataMock: ProductProps = {
   productDescription: 'ADIDAS SUPERSTAR 82',
   productPrice: 'R$ 599,99',
   productImage: adidasSuperstarImage,
-  buyActionText: 'O MELHOR DA ADIDAS',
+  buyActionText: 'O MELHOR TÊNIS',
   brandLogo: adidasLogo
 };

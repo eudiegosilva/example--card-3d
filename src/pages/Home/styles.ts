@@ -8,6 +8,6 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
 
-    background-color: ${theme.colors.primary};
+    background-color: ${theme.colors.white};
   `}
 `;
