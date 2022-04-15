@@ -54,14 +54,14 @@ export const Button = styled.button`
     transition: ${theme.transition.fast};
     border-radius: ${theme.border.radius.small};
     background-color: ${theme.colors.primary};
-    color: ${theme.colors.secondary};
+    color: ${theme.colors.white};
     border: 0.25rem solid ${theme.colors.primary};
     cursor: pointer;
     outline: none;
 
     &:hover {
       background-color: ${theme.colors.secondary};
-      color: ${theme.colors.primary};
+      color: ${theme.colors.white};
     }
   `}
 `;
@@ -79,6 +79,6 @@ export const BrandLogoWrapper = styled.div`
 export const BrandLogo = styled.img`
   ${() => css`
     width: auto;
-    height: 13px;
+    height: 20px;
   `}
 `;

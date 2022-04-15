@@ -1,9 +1,9 @@
 export default {
   colors: {
-    primary: '#FFCB00',
+    primary: '#25358D',
     secondary: '#1D1F21',
 
-    white: '#FFFFFF',
+    white: '#E7E4DB',
     black: '#000000'
   },
   grid: {

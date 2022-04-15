@@ -82,7 +82,7 @@ export const BrandText = styled.h1`
 
     margin: 0;
     color: ${theme.colors.white};
-    font-size: calc(${theme.font.sizes.huge} * 1.2);
+    font-size: calc(${theme.font.sizes.huge} * 0.8);
     font-weight: ${theme.font.weights.bold};
     text-transform: uppercase;
   `}
@@ -107,8 +107,7 @@ export const Product = styled(motion.div)`
     z-index: ${theme.layers.alwaysOnTop};
 
     user-select: none;
-    margin-right: 2.5em;
-    margin-top: 2.5em;
+    margin-top: 7em;
   `}
 `;
 

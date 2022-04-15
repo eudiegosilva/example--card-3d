@@ -2,7 +2,7 @@ import { useMotionValue, useTransform } from 'framer-motion';
 
 import { CardDetails } from 'components';
 
-import { brandNikeDataMock } from './brandDataMock';
+import { brandAdidasDataMock } from './brandDataMock';
 import * as s from './styles';
 
 const BrandCard = () => {
@@ -24,19 +24,19 @@ const BrandCard = () => {
           <s.CircleWrapper>
             <s.Circle />
           </s.CircleWrapper>
-          <s.BrandText>{brandNikeDataMock.productTitle}</s.BrandText>
+          <s.BrandText>{brandAdidasDataMock.productTitle}</s.BrandText>
           <s.ProductWrapper>
             <s.Product
               style={{ rotate: '-25deg', x, y, rotateX, rotateY, z: 10000 }}
               drag
               dragElastic={0.12}
             >
-              <s.ProductImage src={brandNikeDataMock.productImage} />
+              <s.ProductImage src={brandAdidasDataMock.productImage} />
             </s.Product>
           </s.ProductWrapper>
         </s.TopContainer>
         <s.BottomContainer>
-          <CardDetails {...brandNikeDataMock} />
+          <CardDetails {...brandAdidasDataMock} />
         </s.BottomContainer>
       </s.CardWrapper>
     </s.CardContainer>

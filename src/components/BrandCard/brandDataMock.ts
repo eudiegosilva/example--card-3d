@@ -1,5 +1,5 @@
-import nikeAirImage from 'assets/images/air-jordan-transparent.png';
-import nikeLogo from 'assets/images/nike-logo.png';
+import adidasSuperstarImage from 'assets/images/adidas-superstar-transparent.png';
+import adidasLogo from 'assets/images/adidas-logo.png';
 
 export type ProductProps = {
   brandName: string;
@@ -11,12 +11,12 @@ export type ProductProps = {
   brandLogo: string;
 };
 
-export const brandNikeDataMock: ProductProps = {
-  brandName: 'NIKE',
-  productTitle: 'NIKE AIR',
-  productDescription: 'AIR JORDAN 1 MID SE GC',
-  productPrice: 'U$ 856',
-  productImage: nikeAirImage,
-  buyActionText: 'YOUR NEXT SHOES',
-  brandLogo: nikeLogo
+export const brandAdidasDataMock: ProductProps = {
+  brandName: 'ADIDAS',
+  productTitle: 'SUPERSTAR',
+  productDescription: 'ADIDAS SUPERSTAR 82',
+  productPrice: 'R$ 599,99',
+  productImage: adidasSuperstarImage,
+  buyActionText: 'O MELHOR DA ADIDAS',
+  brandLogo: adidasLogo
 };
